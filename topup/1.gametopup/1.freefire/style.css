@@ -1,0 +1,181 @@
+* {
+	box-sizing: border-box;
+	margin: 0; padding: 0;
+}
+
+body {
+	font-family: arial, Sans-serif;
+	background: #FFFFFF;
+	color: white;
+	line-height: 1.8;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+a {
+  padding: 1em;
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  width: 100%;
+  text-decoration: none !important;
+}
+
+#n6 {
+	margin: 6px auto;
+	max-width: 500px;
+	padding: 6px;
+}
+
+.b6 {
+	background: white;
+	padding: 15px 25px;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	color: black;
+	align-items: content;
+}
+.b6 h2,
+.b6 p {
+	text-align: center;
+}
+.b6 .btn {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-top: 20px;
+	background: #11A3F9;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 3px;
+	border: 0;
+	font-weight: bold;
+}
+
+
+
+
+
+.table-row{
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: #555;
+    font-size: 13px;
+    box-shadow: 0 1px 4px 0px rgba(0,0,50,0.3);
+}
+
+.table-cell{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+}
+.first-cell{
+    text-align: left;
+    padding-left: 10px;
+}
+.last-cell{
+    border-right: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .table-row {
+    font-size: 11px;
+  }
+}
+
+.tebel1{
+ width: 300px;
+ height: 300px;
+ color: #11A3F9;
+
+
+}
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.top{
+    width: 250px;
+    height: 550px;
+    max-width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 0px;
+    text-align: center;
+}
+
+.enter{
+    height: 35px;
+    width: 100%;
+    font-size: 11px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    
+    padding: 0 9px;
+    border: 2px solid #aaa;
+    
+    
+
+
+}
+
+.submit{
+    height: 30px;
+    width: 220px;
+    font-size: 13px;
+    color: black;
+    background-color: #11A3F9;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 3px;
+    margin-left: 3px;
+
+
+}
+
+.pmr{
+
+    font-size: 11px;
+}
+
+.pms{
+    font-size: 12px;
+}
+hr{
+    color: red;
+}
+.hadc{
+    color: #11A3F9;
+}
+.pmr{
+    color: #11A3F9;
+    
+    
+}
+.texthelp{
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.helpoder{
+    color: red;
+    font-size: 10px;
+    font-weight: bold;
+}
